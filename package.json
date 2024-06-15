@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "export-port.js",
-  "type":"module",
+  "type": "module",
   "bin": {
     "expose-port": "./bin/expose-port.js"
   },
@@ -11,7 +11,7 @@
     "start": "node export-port.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Goutam Kumar Nayak",
   "license": "ISC",
   "dependencies": {
     "commander": "^12.1.0"
