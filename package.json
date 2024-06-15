@@ -2,11 +2,18 @@
   "name": "expose-port",
   "version": "1.0.0",
   "description": "",
-  "main": "./bin/expose-port.js",
+  "main": "export-port.js",
+  "type":"module",
+  "bin": {
+    "expose-port": "./bin/expose-port.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node export-port.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
 }
