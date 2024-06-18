@@ -1,6 +1,6 @@
 {
   "name": "expose-port",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Expose localhost for testing the site in mobile app or another devices",
   "main": "export-port.js",
   "type": "module",
@@ -16,7 +16,7 @@
     "data",
     "index.js"
   ],
-   "repository": {
+  "repository": {
     "type": "git",
     "url": "https://github.com/Goutam-04/expose-port.git"
   },
