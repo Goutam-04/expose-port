@@ -1,7 +1,7 @@
 {
   "name": "expose-port",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "Expose localhost for testing the site in mobile app or another devices",
   "main": "export-port.js",
   "type": "module",
   "bin": {
@@ -10,9 +10,30 @@
   "scripts": {
     "start": "node export-port.js"
   },
-  "keywords": [],
-  "author": "Goutam Kumar Nayak",
-  "license": "ISC",
+  "files": [
+    "bin/",
+    "lib/",
+    "data",
+    "index.js"
+  ],
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/Goutam-04/expose-port.git"
+  },
+  "homepage": "https://github.com/Goutam-04/expose-port",
+  "keywords": [
+    "cli",
+    "node-cli",
+    "github",
+    "community",
+    "first-timers",
+    "help-wanted"
+  ],
+  "author": "Goutam Kumar Nayak <goutamnayak2804@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.3.0"
+  },
   "dependencies": {
     "commander": "^12.1.0"
   }
