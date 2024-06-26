@@ -22,11 +22,9 @@
   },
   "homepage": "https://github.com/Goutam-04/expose-port",
   "keywords": [
-    "cli",
+    "cli-tool",
     "node-cli",
-    "github",
-    "community",
-    "first-timers",
+    "expose-port",
     "help-wanted"
   ],
   "author": "Goutam Kumar Nayak <goutamnayak2804@gmail.com>",
